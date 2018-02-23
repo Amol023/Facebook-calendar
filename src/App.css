@@ -1,0 +1,78 @@
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.full-hour {
+  font-weight: bold;
+}
+
+.calender-app {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.calender-time {
+  height: 720px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 10px;
+}
+
+.calender-container {
+  width: 600px;
+  height: 720px;
+  padding: 0 10px 0 10px;
+  background: #ececec;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #d4d4d4;
+}
+
+.individual-time {
+  margin: 0 0 0 10px;
+  font-size: small;
+  display: flex;
+  justify-content: space-between;
+}
+
+.full-hour {
+  font-weight: bold;
+  padding-right: 5px;
+  color: #777;
+}
+
+.half-hour {
+  font-size: x-small;
+  font-weight: bold;
+  position: relative;
+  color: #d4d4d4;
+}
+
+.day-container {
+  font-size: x-small;
+  font-weight: bold;
+  color: #d4d4d4;
+}
+
+.event-group {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: absolute;
+
+}
